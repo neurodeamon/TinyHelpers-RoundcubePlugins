@@ -1,0 +1,6 @@
+############   roundcube-plugins   ################
+
+My Roundcube plugins:
+
+otherserver - provides an option to switch between predefined hosts and input field for custom host when needed
+hostmatch - automagically selects predefined host while typing username (only works if username = valid email adress) and with predefined hosts

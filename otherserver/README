@@ -1,0 +1,27 @@
+Plugin description
+###################
+If you use a list of predefined hosts, but still want to manually use other hosts,
+then this plugin is what you probably ever wanted!
+
+!!! Beware !!!
+!!! This plugin only works if your theme uses the same html (id/name).
+!!! If you messed with the html and didn't style your login page through CSS,
+!!! then you need to adjust this plugin to your needs. (through otherserver.js)
+!!! the jQuery JS framework is also needed !
+
+Installation
+#############
+
+Upload the unzipped plugin folder to your roundcube plugin directory and activate it in
+the roundcube configuration file (config/main.inc.php).
+
+i.E.:
+
+// List of active plugins (in plugins/ directory)
+$rcmail_config['plugins'] = array('otherserver');
+
+
+
+ToDo
+#####
+Language support! ;-)
