@@ -6,7 +6,7 @@ While you enter your username (works only with email adresses as username) the c
 
 i.e. You have defined hosts like:
 "Gmail" pointing to "ssl://imap.gmail.com"
-"yahoo" pointing to "ssl://imap.yahoo.com"
+"yahoo" pointing to "ssl://imap.mail.yahoo.com"
 
 then typing "yourname@gmail.com" will autoselect the gmail host.
 This is done by checking the "domain" part of the username "yourname@hostname.tld".
